@@ -1,0 +1,23 @@
+# Entorno para las carpetas 01, 02 y 03 (Brian2 necesita numpy 1.x)
+name: mosca
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - numpy==1.26.4
+      - pandas==2.1.4
+      - brian2==2.9.0
+      - matplotlib
+      - networkx
+      - pygame
+      - pyvista
+      - pyvistaqt
+      - PyQt5
+      - pyarrow==17.0.0
+      - scipy
+      - imageio
+      - imageio-ffmpeg
+      - requests
+      - python-dotenv

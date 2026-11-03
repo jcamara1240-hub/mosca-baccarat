@@ -1,0 +1,22 @@
+# Datos de FlyWire (se descargan aparte, ver datos_flywire/LEEME.md)
+datos_flywire/*
+!datos_flywire/LEEME.md
+
+# Archivos que generan los scripts
+*.pkl
+*.npz
+*.mp4
+tmp_baccarat/
+tmp_vivo/
+captura_cerebro.png
+cerebro_*.png
+kenyon_cells_prueba.csv
+
+# Secretos
+.env
+
+# Python / editores
+__pycache__/
+*.pyc
+.vscode/
+.idea/

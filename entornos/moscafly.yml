@@ -1,0 +1,19 @@
+# Entorno para la carpeta 04 (cuerpo NeuroMechFly + MuJoCo, usa numpy 2.x)
+name: moscafly
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - git
+  - pip
+  - pip:
+      - git+https://github.com/NeLy-EPFL/flygym-gymnasium
+      - networkx
+      - pyvista
+      - pandas
+      - pyarrow
+      - scipy
+      - imageio
+      - imageio-ffmpeg
+      - pillow
+      - opencv-python
